@@ -1,0 +1,127 @@
+div {
+    padding: 20px; 
+    border: 2px solid #fff;
+    margin: 20px;
+}
+
+body {
+    background: #000; 
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.card {
+    background: #141714;
+    color: #ffff;
+    width: 320px;
+    padding: 30px;
+gap: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(red, green, blue, alpha);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-img {
+    width: 50px;
+    height: 50;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    margin: 10px 0 5px;
+    font-size: 1.4rem;
+
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+
+}
+
+.github {
+   display: inline-flex;
+   align-items: center;
+   flex-direction: column;
+
+   gap: 8px;
+   background: #2429;
+   color: white;
+   padding: 8px 12px;
+   border-radius: 8px;
+   text-decoration: none;
+   font-weight: bold;
+   transition: 0.2s; 
+}
+
+.github:hover {
+    background: #444c56;
+
+}
+
+.spotify {
+   margin-top: 15px;
+   display: flex;
+   justify-content: center; 
+}
+
+.spotify iframe {
+    border-radius: 12px;
+}
+
+.github-logo {
+    width: 100px;
+height: 352x;
+display: block;
+margin: 0 auto;
+
+}
+
+.card-text {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-bottom: 15px;
+
+}
+
+
+.card-btn {
+
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+.card-btn:hover {
+background: #4752c4;
+
+}
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
