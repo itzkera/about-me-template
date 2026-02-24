@@ -5,7 +5,8 @@ div {
 }
 
 body {
-    background: #000; 
+    background: url();
+    background-size: cover;
     color: #fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
